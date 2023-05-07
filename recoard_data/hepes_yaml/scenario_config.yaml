@@ -1,0 +1,53 @@
+sensors_list:
+  1:
+    name: 'semantic_lidar'
+    args:
+      channels: 64
+      dropoff_general_rate: 0
+      dropoff_intensity_limit: 0
+      dropoff_zero_intensity: 0.15
+      lower_fov: -30
+      upper_fov: 10
+      noise_stddev: 0
+      points_per_second: 1300000
+      range: 60
+      rotation_frequency: 10
+      lidar_visualize: true
+      thresh: 5
+      spawn_position:
+        - 23
+        - -81
+        - 4
+        - 0
+        - 0
+        - 0
+  2:
+    name: 'semantic_lidar'
+    args:
+      channels: 64
+      dropoff_general_rate: 0
+      dropoff_intensity_limit: 0
+      dropoff_zero_intensity: 0.15
+      lower_fov: -30
+      upper_fov: 10
+      noise_stddev: 0
+      points_per_second: 1300000
+      range: 60
+      rotation_frequency: 10
+      lidar_visualize: true
+      thresh: 5
+      spawn_position:
+        - 41.3
+        - -88
+        - 4
+        - 0
+        - 0
+        - 0
+
+world:
+  client_port: 2000
+  fixed_delta_seconds: 0.1
+  vechile_num: 100
+  sync_mode: true
+  map: 'Town05'
+
